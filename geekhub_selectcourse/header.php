@@ -1,7 +1,7 @@
 ﻿<!doctype html>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <link href="style.css" type="text/css" rel="stylesheet" />
     <link rel="stylesheet" href="/flipclock.css">
 <title> Geekhub - Отримай практичні знання в сфері ІТ </title>
