@@ -1,8 +1,8 @@
-<?php
-// там - усі налаштування
+п»ї<?php
+// С‚Р°Рј - СѓСЃС– РЅР°Р»Р°С€С‚СѓРІР°РЅРЅСЏ
 include "settings.php";
 if(!mysql_connect(HostName,UserName,Password))
-{ echo "Не могу соединиться с базой".DBName."!<br>";
+{ echo "РќРµ РјРѕРіСѓ СЃРѕРµРґРёРЅРёС‚СЊСЃСЏ СЃ Р±Р°Р·РѕР№".DBName."!<br>";
 echo mysql_error();
 exit;
 }

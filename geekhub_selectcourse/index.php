@@ -1,11 +1,11 @@
-<?php
+п»ї<?php
 include "header.php"
 ?>
-<h1>Введіть логін та пароль ;) </h1>
+<h1>Р’РІРµРґС–С‚СЊ Р»РѕРіС–РЅ С‚Р° РїР°СЂРѕР»СЊ ;) </h1>
 <form action=select_course.php  type=post>
-<p> Логін:<input type=text name="login"></p>
-<p> Пароль:<input type=pass name="pass"></p>
-<p> <input type=submit value="Війти"></p>
+<p> Р›РѕРіС–РЅ:<input type=text name="login"></p>
+<p> РџР°СЂРѕР»СЊ:<input type=pass name="pass"></p>
+<p> <input type=submit value="Р’С–Р№С‚Рё"></p>
 <?php
 include "footer.php"
 ?>

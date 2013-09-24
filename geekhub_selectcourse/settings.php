@@ -1,10 +1,10 @@
-<?php
+ï»¿<?php
 define("DBName","geekhub");
 define("HostName","localhost");
 define("UserName","root");
 define("Password","");
 $tablename="abiturients";
-// !!! Ñïèñîê êóðñîâ!!! Èõ ïîðÿäîê äîëæåí ñîîòâåòñòâîâàòü àíêåòàì!!!! Îí ñòàòè÷åñêèé!!!
+// !!! Ð¡Ð¿Ð¸ÑÐ¾Ðº ÐºÑƒÑ€ÑÐ¾Ð²!!! Ð˜Ñ… Ð¿Ð¾Ñ€ÑÐ´Ð¾Ðº Ð´Ð¾Ð»Ð¶ÐµÐ½ ÑÐ¾Ð¾Ñ‚Ð²ÐµÑ‚ÑÑ‚Ð²Ð¾Ð²Ð°Ñ‚ÑŒ Ð°Ð½ÐºÐµÑ‚Ð°Ð¼!!!! ÐžÐ½ ÑÑ‚Ð°Ñ‚Ð¸Ñ‡ÐµÑÐºÐ¸Ð¹!!!
 $coursenames=array("none","Frontend+CMS","Advanced CMS","Advanced PHP","JavaScript","iOS","Android","Ruby on Rails", "Groovy & Grails", "Java for Web", "Project Management", "Quality Assurance", "Business English");
 
 ?>

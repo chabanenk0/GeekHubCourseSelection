@@ -1,14 +1,14 @@
-</div><!-- content -->
+п»ї</div><!-- content -->
     <ul id="footer">
         <li>
             <ul class="nav">
-                <li><a href="/">Головна</a></li>
-                <li><a href="/about.html">Про GeekHub</a></li>
-                <li><a href="/team.html">Команда</a></li>
-                <li><a href="/contacts.html">Зв'язок</a></li>
+                <li><a href="/">Р“РѕР»РѕРІРЅР°</a></li>
+                <li><a href="/about.html">РџСЂРѕ GeekHub</a></li>
+                <li><a href="/team.html">РљРѕРјР°РЅРґР°</a></li>
+                <li><a href="/contacts.html">Р—РІ'СЏР·РѕРє</a></li>
             </ul>
         </li>
-        <li>© Copyright 2011</li>
+        <li>В© Copyright 2011</li>
     </ul>
 </div>
 </body>

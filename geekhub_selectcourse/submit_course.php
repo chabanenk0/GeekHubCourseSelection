@@ -1,7 +1,7 @@
-<?php
+п»ї<?php
 include "settings.php";
 if(!mysql_connect(HostName,UserName,Password))
-{ echo "Не могу соединиться с базой".DBName."!<br>";
+{ echo "РќРµ РјРѕРіСѓ СЃРѕРµРґРёРЅРёС‚СЊСЃСЏ СЃ Р±Р°Р·РѕР№".DBName."!<br>";
 echo mysql_error();
 exit;
 }
@@ -23,7 +23,7 @@ if ($r)
     }
     else
     {    
-     $query2="update $tablename set is_selected=0 where id=$course_id"; // удаляем другие курсы, чтобы только один был выбран
+     $query2="update $tablename set is_selected=0 where id=$course_id"; // СѓРґР°Р»СЏРµРј РґСЂСѓРіРёРµ РєСѓСЂСЃС‹, С‡С‚РѕР±С‹ С‚РѕР»СЊРєРѕ РѕРґРёРЅ Р±С‹Р» РІС‹Р±СЂР°РЅ
     }
     //echo $query2;
     $r1=mysql_query($query2);
@@ -31,7 +31,7 @@ if ($r)
    header('Location: statistics.php');
  }
 else
- { echo "Вас нема у списку тих, хто має проходити співбесіду";
+ { echo "Р’Р°СЃ РЅРµРјР° Сѓ СЃРїРёСЃРєСѓ С‚РёС…, С…С‚Рѕ РјР°С” РїСЂРѕС…РѕРґРёС‚Рё СЃРїС–РІР±РµСЃС–РґСѓ";
  }
 
 ?>

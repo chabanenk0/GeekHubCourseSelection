@@ -1,10 +1,10 @@
-<?php
+п»ї<?php
 include "header.php"
 ?>
 <?php
 include "settings.php";
 if(!mysql_connect(HostName,UserName,Password))
-{ echo "Не могу соединиться с базой".DBName."!<br>";
+{ echo "РќРµ РјРѕРіСѓ СЃРѕРµРґРёРЅРёС‚СЊСЃСЏ СЃ Р±Р°Р·РѕР№".DBName."!<br>";
 echo mysql_error();
 exit;
 }
@@ -16,9 +16,9 @@ $r=mysql_query($query);
 if ($r)
  {
   $num_res=mysql_num_rows($r);
-  echo "<H1> Cтатистика претендентів на курси:</H1>";
+  echo "<H1> CС‚Р°С‚РёСЃС‚РёРєР° РїСЂРµС‚РµРЅРґРµРЅС‚С–РІ РЅР° РєСѓСЂСЃРё:</H1>";
   echo "<table border=2>\n";
-  echo "<th>Курс</th><th>Кількість претендентів</th>\n";
+  echo "<th>РљСѓСЂСЃ</th><th>РљС–Р»СЊРєС–СЃС‚СЊ РїСЂРµС‚РµРЅРґРµРЅС‚С–РІ</th>\n";
   for($i=0; $i<$num_res; $i++)            
    {  
     $f=mysql_fetch_array($r);

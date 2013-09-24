@@ -1,10 +1,10 @@
-<?php
+п»ї<?php
 include "header.php"
 ?>
 <?php
 include "settings.php";
 if(!mysql_connect(HostName,UserName,Password))
-{ echo "Не могу соединиться с базой".DBName."!<br>";
+{ echo "РќРµ РјРѕРіСѓ СЃРѕРµРґРёРЅРёС‚СЊСЃСЏ СЃ Р±Р°Р·РѕР№".DBName."!<br>";
 echo mysql_error();
 exit;
 }
@@ -18,7 +18,7 @@ $r=mysql_query($query);
 if ($r)
  {
   $num_res=mysql_num_rows($r);
-  echo "<H1> Виберіть курс, на який Ви будете проходити співбесіду:</H1>";
+  echo "<H1> Р’РёР±РµСЂС–С‚СЊ РєСѓСЂСЃ, РЅР° СЏРєРёР№ Р’Рё Р±СѓРґРµС‚Рµ РїСЂРѕС…РѕРґРёС‚Рё СЃРїС–РІР±РµСЃС–РґСѓ:</H1>";
   echo "<form action=submit_course.php type=post>\n";
   echo "<input type=hidden name='login' value='$login'>\n";
   echo "<input type=hidden name='pass' value='$pass'>\n";
@@ -31,11 +31,11 @@ if ($r)
     $coursename=$coursenames[$courseid];
     echo "<option value=$courseid> $coursename </option>\n";
    }
-   echo "</select>\n<p><input type=submit value='Надіслати'></form>";
+   echo "</select>\n<p><input type=submit value='РќР°РґС–СЃР»Р°С‚Рё'></form>";
 
  }
 else
- { echo "Вас нема у списку тих, хто має проходити співбесіду";
+ { echo "Р’Р°СЃ РЅРµРјР° Сѓ СЃРїРёСЃРєСѓ С‚РёС…, С…С‚Рѕ РјР°С” РїСЂРѕС…РѕРґРёС‚Рё СЃРїС–РІР±РµСЃС–РґСѓ";
  }
 
 ?>
