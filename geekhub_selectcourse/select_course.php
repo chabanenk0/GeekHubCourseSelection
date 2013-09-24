@@ -1,11 +1,6 @@
-<!doctype html>
-<html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
-<title> Geekhub - Отримай практичні знання в сфері ІТ </title>
-</head>
-<body>
-
+<?php
+include "header.php"
+?>
 <?php
 include "settings.php";
 if(!mysql_connect(HostName,UserName,Password))
@@ -44,5 +39,6 @@ else
  }
 
 ?>
-</body>
-</html>
+<?php
+include "footer.php"
+?>
